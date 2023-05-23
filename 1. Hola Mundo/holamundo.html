@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hola Mundo</title>
+
+    <!-- Agregar estilos -->
+    <style>
+        body {
+            background-color: bisque;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            color: rgb(61, 61, 61);
+        }
+    </style>
+    <!-- 2. Agregar código JavaScript desde el encabezado 
+         Enseñar esto, después de la forma 1-->
+    <script defer>
+        alert('Alerta desde el head');
+    </script>
+
+</head>
+
+<body>
+    <h1>Hola Mundo!</h1>
+
+
+
+
+    <!-- 1. Agregar código Javascript en el body
+    La idea de agregar el js antes del cierre del body es 
+    porque carga de forma secuencial y queremos acceder a 
+    elementos html que ya cargaron.
+    -->
+    <script>
+        /*
+        Con Javascript, podemos acceder al documento y agregar
+        dinámicamente elementos html. Esta es la magia de JS.
+        */
+        document.write('Hola Mundo');
+
+        //Agregar elementos html con su etiqueta
+        //document.write('<h2>Hola Mundo</h2>'); 
+
+        //Mostrar alertas en pantalla
+        alert('Mensaje de alerta!!');
+
+        //Imprimir mensajes en la consola del navegador web (f12)
+        /*
+        La consola es una herramienta muy útil que usaremos, nos 
+        ayuda a controlar el código y detectar errores cometidos.
+        */
+        console.log('Hola Mundo');
+
+        /*Javascript es sensible a mayúsuculas, enseñar 
+        lowerCamelCase y UpperCammelCase. getElementById
+        Enseñar comentarios*/
+    </script>
+    
+</body>
+
+</html>

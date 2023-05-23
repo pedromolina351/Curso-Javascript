@@ -1,0 +1,30 @@
+.formulario {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(228, 224, 224);
+    padding: 25px;
+    border: 1px solid rgb(87, 87, 87);
+    border-radius: 10px;
+}
+
+.inputs {
+    margin-bottom: 15px;
+    padding: 10px;
+
+}
+
+#btn-sumar {
+    padding: 10px;
+    background-color: rgb(67, 148, 240);
+    cursor: pointer;
+    color: #FFF;
+    border-radius: 50px;
+    border: none;
+}
+
+.resultado {
+    margin-top: 20px;
+    font-size: 2rem;
+    color: red;
+}
