@@ -1,3 +1,4 @@
+/////////////////////   20   //////////////////////////
 /* Reglas acerca de las variables:
  * Deben empezar con una letra (de preferencia minúscula)
  * No deben empezar con número ni caractér (solo '$' o '_')
@@ -7,6 +8,8 @@
 var edad = 27;
 console.log(edad);
 
+
+/////////////////////   21   //////////////////////////
 /*
  * string: Cadena de texto.
  * number: Valores numéricos (enteros o decimales).
@@ -17,16 +20,21 @@ console.log(edad);
  * undefined: Su valor no está definido.
  */
 var edad = 27;
+var name = 'cadena';
+var booleano = true;
+var nula = null;
+var indefinida; //Es undefined por defecto
+
+/////////////////////   22-23   //////////////////////////
 let usuario = 'Pedro';
 usuario = 'Juan'; //Al ser una variable let, su valor puede cambiar
 /*Las cadenas de texto pueden tener comillas simples o dobles, 
 no existe ninguna restricción, pero se usan mucho las simples */
 const correo = 'pedro@correo.com';
 //correo = 'correo2@correo.com' esto es inválido.
-
 console.log(usuario);
 
-//Ejemplo de como usuar arreglos
+//Ejemplo de como declarar múltiples variables
 /**Podríamos usar
  * let nombre;
  * let apellido;
@@ -45,6 +53,17 @@ const nombre1 = 'Carlos ';
 const nombre2 = 'Arturo';
 const nombreCompleto = nombre1 + nombre2;
 console.log(nombreCompleto);
+
+/////////////////////   24-25   //////////////////////////
+/**
+ * En Javascript, las variables no tienen un tipo único
+ */
+
+let miVariable = 'Cadena de texto';
+miVariable = 8; // o miVariable = true; 
+
+/////////////////////   26   //////////////////////////
+
 
 
 
