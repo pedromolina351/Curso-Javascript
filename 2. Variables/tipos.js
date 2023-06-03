@@ -38,5 +38,35 @@ const arreglo = [1, 10, 5];
 console.log(arreglo); 
 /**
  * Podríamos decir que un arreglo es una variable que
- * almacena varios valores 
+ * almacena varios valores. Lo interesante de los arreglos
+ * es que permite almacenar varios tipos de valores distintos
+ * en el mismo arreglo.
  */
+const arreglo2 = ['cadena', true, 23, [1 ,2, 3]]; 
+console.log(arreglo2);
+// Para acceder a los atributos internos se hace mediante la posicion del arreglo.
+console.log(arreglo2[0]); 
+
+//---------------- Objetos - object --------------------
+//---------------- Diapositiva 27 ----------------------
+/**
+ * Son muy similares a los arreglos, nos permiten guardar informacion
+ * pero en un formato de "parejas", donde dentro de una pareja 
+ * vamos a tener una estructura llamada clave-valor.
+ */
+const persona = {
+    nombre: 'Julio', // cada dato va separado por una coma.
+    apellido: 'Ramos',
+    edad: 23,
+    carro: { // Los objetos también pueden tener como dato otro objeto.
+        marca: 'Ford',
+        color: 'Rojo'
+    },
+    trabajos: ['Profesor', 'Arquitecto']
+}
+console.log(persona);
+//Para acceder a los atributos internos de un objeto se hace con un .atributo
+//Acceder a los datos es más fácil con objetos que con arreglos.
+console.log(persona.nombre);
+console.log(persona.carro.marca);
+console.log(persona.trabajos[0]);

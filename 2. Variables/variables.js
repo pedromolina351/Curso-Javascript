@@ -64,7 +64,7 @@ miVariable = 8; // o miVariable = true;
 
 /////////////////////   26   //////////////////////////
 //Ejemplos de todos los tipos de datos
-/*CREAR NUEVO ARCHIVO 'tiposDeDatos.js' y cambiar la ruta */
+/*CREAR NUEVO ARCHIVO 'tipos.js' y cambiar la ruta */
 
 
 
