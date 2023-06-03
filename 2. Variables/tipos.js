@@ -62,11 +62,11 @@ const persona = {
         marca: 'Ford',
         color: 'Rojo'
     },
-    trabajos: ['Profesor', 'Arquitecto']
+    trabajos: ['Profesor', 'Arquitecto'] // Los objetos también pueden tener arreglos
 }
 console.log(persona);
 //Para acceder a los atributos internos de un objeto se hace con un .atributo
 //Acceder a los datos es más fácil con objetos que con arreglos.
 console.log(persona.nombre);
-console.log(persona.carro.marca);
-console.log(persona.trabajos[0]);
+console.log(persona.carro.marca); // acceder a un objeto dentro de otro
+console.log(persona.trabajos[0]); // acceder a un arreglo dentro de un objeto 
