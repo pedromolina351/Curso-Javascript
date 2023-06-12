@@ -35,17 +35,17 @@ console.log(mayorQue);
 
 //---------------- Arreglos - Arrays --------------------
 const arreglo = [1, 10, 5];
-console.log(arreglo); 
+console.log(arreglo);
 /**
  * Podríamos decir que un arreglo es una variable que
  * almacena varios valores. Lo interesante de los arreglos
  * es que permite almacenar varios tipos de valores distintos
  * en el mismo arreglo.
  */
-const arreglo2 = ['cadena', true, 23, [1 ,2, 3]]; 
+const arreglo2 = ['cadena', true, 23, [1, 2, 3]];
 console.log(arreglo2);
 // Para acceder a los atributos internos se hace mediante la posicion del arreglo.
-console.log(arreglo2[0]); 
+console.log(arreglo2[0]);
 
 //---------------- Objetos - object --------------------
 //---------------- Diapositiva 27 ----------------------
@@ -69,4 +69,18 @@ console.log(persona);
 //Acceder a los datos es más fácil con objetos que con arreglos.
 console.log(persona.nombre);
 console.log(persona.carro.marca); // acceder a un objeto dentro de otro
-console.log(persona.trabajos[0]); // acceder a un arreglo dentro de un objeto 
+console.log(persona.trabajos[0]); // acceder a un arreglo dentro de un objeto
+
+//---------------- Funciones --------------------
+//---------------- Diapositiva 28-29 ----------------------
+function hola() {
+    console.log('Función que dice hola');
+}
+/**Una función por si sola no se va a ejecutar, primero necesitamos
+ * 'invocarla' para que se ejecuten todas las instrucciones.
+ * Esto es lo interesante de las funciones, que nos permiten
+ * ejecutar código cuando nosotros lo decidamos o necesitemos.
+ * Por ejemplo cuando el usuario presiona un botón o cuando
+ * ocurre un cambio en la página, etc.
+ */
+hola();
