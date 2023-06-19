@@ -16,17 +16,18 @@ const edad = 15;
  * sino, será false.
  */
 let permitirAcceso = edad >= 18;
-console.log('Acceso permitido? ' + permitirAcceso);
+console.log('Tiene la edad? ' + permitirAcceso);
 
 /*Podríamos hacer más interesante el ejemplo preguntando si
 la persona a parte de tener edad suficiente, compró un boleto*/
 
 const tieneBoleto = true;
+console.log('Tiene boleto? ' + tieneBoleto);
 
 //Para verificar que cumpla ambas condiciones lo haremos con &&
 
 permitirAcceso = edad >= 18 && tieneBoleto;
-console.log('Acceso permitido? ' + permitirAcceso);
+console.log('Tiene la edad y boleto? ' + permitirAcceso);
 /**Para que esta sentencia sea verdadera se tienen que cumplir
  * ambas condiciones*/
 
@@ -34,10 +35,17 @@ console.log('Acceso permitido? ' + permitirAcceso);
  * solamente si van acompañados de un adulto, entonces haremos
  * otra variable que pregunte si está solo.
  */
-const tienePermiso = false;
+const tienePermiso = true;
+console.log('Tiene permiso? ' + tienePermiso);
 
 /*Para verificar que cumpla al menos una condición usamos ||
 Vamos a crear 2 condiciones, una en la que tiene entrada y edad
 y otra en la cual tenga entrada y permiso*/
 permitirAcceso = (edad >= 18 && tieneBoleto) || (tienePermiso && tieneBoleto);
-console.log('Acceso permitido? ' + permitirAcceso);
+console.log('Puede entrar? ' + permitirAcceso);
+
+//Ejemplo del operador not
+let transformar = !permitirAcceso;
+console.log(transformar);
+
+
