@@ -13,7 +13,7 @@
     <h2>Variables</h2>
     <button onclick="crearMensaje()">Generar mensaje</button>
 
-    <script src="./funciones.js"></script>
+    <script src="./ciclos.js"></script>
 </body>
 
 </html>
@@ -26,4 +26,21 @@
 5. arreglos
 6. condicionales
 7. funciones
+8. Ciclos
+
+Ejercicio:
+Supongamos que tenemos un array de palabras y queremos contar 
+cuántas palabras tienen una longitud superior a 5 caracteres.
+var palabras = ["casa", "perro", "gato", "elefante", "león", "ave"];
+var contador = 0;
+
+palabras.forEach(function(palabra) {
+  if (palabra.length > 5) {
+    contador++;
+  }
+});
+
+console.log("Cantidad de palabras con longitud superior a 5 caracteres: " + contador);
+
+
 -->
