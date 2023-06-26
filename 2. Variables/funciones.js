@@ -90,5 +90,7 @@ miFuncion();
 //Intento acceder a la variable apellido y tengo un error
 console.log(apellido);
 
+//Ejecutar funciones desde el html
+
 
 
